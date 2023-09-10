@@ -1,4 +1,4 @@
-public class _02_binary {
+public class _02_Binary {
     public static void main(String[] args) {
         // Integer.parseInt(a) 문자열 a를 10진수로 변환
         // Integer.parseInt(a, 2) 문자열 a를 2진수로 읽어서 10진수로 변환 2대신 8 16진수도 가능
