@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class _01_duplicatges {
+public class _01_duplicates {
     public static void main(String[] args) {
         // 중복된 배열 삭제하기
         String[] arr = {"1","2","2","3","4","5","5","6"};
