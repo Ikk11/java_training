@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class _03_GCD_LCM {
 
     // 최대공약수 첫번째 방법 : (유클리드 호제법) 나머지의 최대공약수와 같다.
@@ -8,6 +6,7 @@ public class _03_GCD_LCM {
             return b;
         }
         return gcd(b, a % b); // 나머지가 0이될때까지 돌리면 최대공약수 구할수있음
+                                 // max min 따질필요 없음.
     }
 
     // 최소공배수 두수의 곱을 두수의 최대공약수로 나눔
