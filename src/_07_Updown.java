@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class _07_Updown {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int x = (int)(Math.random()*100); // 랜덤 1~100의 값을 불러옴
+        int x = (int)(Math.random()*100); // 랜덤 1~100의 값을 불러옴.
         int z = x;
         int x1 = 0;
         while (true) {
